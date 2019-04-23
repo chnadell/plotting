@@ -1,0 +1,5 @@
+# exclude everything in plotsOut
+plotsOut/*
+
+#exception to exclusion rule above
+!somefolder/.gitkeep
