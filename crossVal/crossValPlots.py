@@ -117,7 +117,7 @@ if __name__=="__main__":
     # specify list of directories to pull and plot data from
     dirs = ['20190410_142248']
     for dir in dirs:
-        plotErrorGrad(dir, 'max')
+        plotErrorGrad(dir, 'mean')
 
     #show the plots generated
     plt.show()
